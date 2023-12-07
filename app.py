@@ -57,7 +57,7 @@ elif upload_option == "Camera":
         # Display the prediction
         st.write(f"Prediction: {prediction[0, 0]}")
 
-        # Display text based on prediction
+        # Display text based on predictions
         if prediction[0, 0] > 0.5:
             st.write('Without Mask')
         else:
