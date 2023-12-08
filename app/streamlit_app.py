@@ -4,7 +4,7 @@ from PIL import Image
 from model.mask_model import load_mask_model
 from utils.image_processing import preprocess_image
 
-model = load_mask_model('mask_find2.keras')
+model = load_mask_model('mask_find3.h5')
 
 def display_prediction(prediction):
     st.write(f"Prediction: {prediction[0, 0]}")
